@@ -17,4 +17,10 @@
       <Folder Include="Controllers\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Include="..\..\..\..\..\Downloads\firebase-credentials.json">
+        <Link>Config\firebase-credentials.json</Link>
+      </Content>
+    </ItemGroup>
+
 </Project>

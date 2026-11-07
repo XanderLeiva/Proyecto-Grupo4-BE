@@ -13,7 +13,7 @@ public class FirebaseService
         
         Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", credentialPath);
         
-        _firestoreDb = FirestoreDb.Create("web-759-g4");
+        _firestoreDb = FirestoreDb.Create("proyecto-grupo4-d8fc1");
     }
     
     public CollectionReference GetCollection (string collectionName)
