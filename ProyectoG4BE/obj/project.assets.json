@@ -1299,19 +1299,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\allan\\.nuget\\packages\\": {}
+    "/Users/stevengarcia/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\allan\\OneDrive - Universidad Tecnologica Centroamericana\\Documentos\\Web759\\Proyecto-Grupo4-BE\\ProyectoG4BE\\ProyectoG4BE.csproj",
+      "projectUniqueName": "/Users/stevengarcia/Documents/proyectoprogra/Proyecto-Grupo4-BE/ProyectoG4BE/ProyectoG4BE.csproj",
       "projectName": "ProyectoG4BE",
-      "projectPath": "C:\\Users\\allan\\OneDrive - Universidad Tecnologica Centroamericana\\Documentos\\Web759\\Proyecto-Grupo4-BE\\ProyectoG4BE\\ProyectoG4BE.csproj",
-      "packagesPath": "C:\\Users\\allan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\allan\\OneDrive - Universidad Tecnologica Centroamericana\\Documentos\\Web759\\Proyecto-Grupo4-BE\\ProyectoG4BE\\obj\\",
+      "projectPath": "/Users/stevengarcia/Documents/proyectoprogra/Proyecto-Grupo4-BE/ProyectoG4BE/ProyectoG4BE.csproj",
+      "packagesPath": "/Users/stevengarcia/.nuget/packages/",
+      "outputPath": "/Users/stevengarcia/Documents/proyectoprogra/Proyecto-Grupo4-BE/ProyectoG4BE/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\allan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/stevengarcia/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -1379,7 +1379,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\allan\\.dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/Users/stevengarcia/.dotnet/sdk/10.0.402/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
