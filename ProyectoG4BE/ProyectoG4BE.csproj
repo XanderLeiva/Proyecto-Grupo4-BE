@@ -7,7 +7,15 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Google.Cloud.Firestore" Version="4.6.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.14" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.13"/>
+        <PackageReference Include="Scalar.AspNetCore" Version="2.19.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Config\" />
+      <Folder Include="Controllers\" />
     </ItemGroup>
 
 </Project>
