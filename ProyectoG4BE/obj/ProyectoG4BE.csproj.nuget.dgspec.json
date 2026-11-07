@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carol\\OneDrive\\Documents\\proyecto_web759\\Proyecto-Grupo4-BE\\ProyectoG4BE\\ProyectoG4BE.csproj": {}
+    "C:\\Users\\memep\\OneDrive\\Escritorio\\Programacion Web\\Proyecto\\Proyecto-Grupo4-BE-nuevo\\ProyectoG4BE\\ProyectoG4BE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carol\\OneDrive\\Documents\\proyecto_web759\\Proyecto-Grupo4-BE\\ProyectoG4BE\\ProyectoG4BE.csproj": {
+    "C:\\Users\\memep\\OneDrive\\Escritorio\\Programacion Web\\Proyecto\\Proyecto-Grupo4-BE-nuevo\\ProyectoG4BE\\ProyectoG4BE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carol\\OneDrive\\Documents\\proyecto_web759\\Proyecto-Grupo4-BE\\ProyectoG4BE\\ProyectoG4BE.csproj",
+        "projectUniqueName": "C:\\Users\\memep\\OneDrive\\Escritorio\\Programacion Web\\Proyecto\\Proyecto-Grupo4-BE-nuevo\\ProyectoG4BE\\ProyectoG4BE.csproj",
         "projectName": "ProyectoG4BE",
-        "projectPath": "C:\\Users\\carol\\OneDrive\\Documents\\proyecto_web759\\Proyecto-Grupo4-BE\\ProyectoG4BE\\ProyectoG4BE.csproj",
-        "packagesPath": "C:\\Users\\carol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carol\\OneDrive\\Documents\\proyecto_web759\\Proyecto-Grupo4-BE\\ProyectoG4BE\\obj\\",
+        "projectPath": "C:\\Users\\memep\\OneDrive\\Escritorio\\Programacion Web\\Proyecto\\Proyecto-Grupo4-BE-nuevo\\ProyectoG4BE\\ProyectoG4BE.csproj",
+        "packagesPath": "C:\\Users\\memep\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\memep\\OneDrive\\Escritorio\\Programacion Web\\Proyecto\\Proyecto-Grupo4-BE-nuevo\\ProyectoG4BE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\carol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\memep\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\carol\\.dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Users\\memep\\.dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
