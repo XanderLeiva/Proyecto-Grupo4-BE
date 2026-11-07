@@ -1299,19 +1299,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/stevengarcia/.nuget/packages/": {}
+    "C:\\Users\\carol\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/stevengarcia/Documents/proyectoprogra/Proyecto-Grupo4-BE/ProyectoG4BE/ProyectoG4BE.csproj",
+      "projectUniqueName": "C:\\Users\\carol\\OneDrive\\Documents\\proyecto_web759\\Proyecto-Grupo4-BE\\ProyectoG4BE\\ProyectoG4BE.csproj",
       "projectName": "ProyectoG4BE",
-      "projectPath": "/Users/stevengarcia/Documents/proyectoprogra/Proyecto-Grupo4-BE/ProyectoG4BE/ProyectoG4BE.csproj",
-      "packagesPath": "/Users/stevengarcia/.nuget/packages/",
-      "outputPath": "/Users/stevengarcia/Documents/proyectoprogra/Proyecto-Grupo4-BE/ProyectoG4BE/obj/",
+      "projectPath": "C:\\Users\\carol\\OneDrive\\Documents\\proyecto_web759\\Proyecto-Grupo4-BE\\ProyectoG4BE\\ProyectoG4BE.csproj",
+      "packagesPath": "C:\\Users\\carol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\carol\\OneDrive\\Documents\\proyecto_web759\\Proyecto-Grupo4-BE\\ProyectoG4BE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/stevengarcia/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\carol\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -1379,7 +1379,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/stevengarcia/.dotnet/sdk/10.0.402/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Users\\carol\\.dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
