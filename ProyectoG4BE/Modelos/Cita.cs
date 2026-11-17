@@ -12,7 +12,7 @@ public class Cita
     
     public string FechaCita { get; set; } = string.Empty;
     
-    public string EstadoCita { get; set; } = "Programada";
+    public string EstadoCita { get; set; } = EstadosCita.Programada;
     
     public string MotivoEstado { get; set; } = string.Empty;
     

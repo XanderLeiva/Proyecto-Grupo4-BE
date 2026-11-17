@@ -44,7 +44,7 @@ public class CitaControllers : ControllerBase
     }
     
     //para que el paciente vea sus citas
-    [HttpGet]
+    [HttpGet("Mis-Citas")]
     [Authorize(Roles = "Paciente")]
     public async Task<IActionResult> GetMisCitas()
     {
@@ -67,7 +67,7 @@ public class CitaControllers : ControllerBase
     
     
     //para que el personal vea sus citas del dia 
-    [HttpGet]
+    [HttpGet("Agenda")]
     [Authorize(Roles = "Personal")]
     public async Task<IActionResult> GetAgenda([FromQuery] string fecha)
     {
@@ -151,7 +151,7 @@ public class CitaControllers : ControllerBase
             if (string.IsNullOrEmpty(userId) || string.IsNullOrEmpty(idCentro))
                 return Unauthorized();
 
-            var citas = await _citaServices.MarcarEstado(id, "Atendida", userId, idCentro);
+            var citas = await _citaServices.MarcarEstado(id, EstadosCita.Atendida, userId, idCentro);
             return Ok(citas);
 
         }
@@ -175,7 +175,7 @@ public class CitaControllers : ControllerBase
             if (string.IsNullOrEmpty(userId) || string.IsNullOrEmpty(idCentro))
                 return Unauthorized();
 
-            var citas = await _citaServices.MarcarEstado(id, "No Asistio", userId, idCentro);
+            var citas = await _citaServices.MarcarEstado(id, EstadosCita.NoAsistio, userId, idCentro);
             return Ok(citas);
 
         }

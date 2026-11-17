@@ -28,7 +28,7 @@ public class CitaServices
             { "MotivoEstado", cita.MotivoEstado },
             { "FechaRegistro", cita.FechaRegistro },
             { "FechaModificacion", cita.FechaModificacion },
-            { "ActializadaPor", cita.ActualizadaPor }
+            { "ActualizadaPor", cita.ActualizadaPor }
         };
     }
 
@@ -127,7 +127,7 @@ public class CitaServices
         var activas = await _firebaseService.GetCollection("cita")
             .WhereEqualTo("IdPaciente", idPaciente)
             .WhereEqualTo("Servicio", dto.Servicio)
-            .WhereEqualTo("EstadoCita", "Programada")
+            .WhereEqualTo("EstadoCita", EstadosCita.Programada)
             .GetSnapshotAsync();
 
         if (activas.Count > 0)
@@ -144,7 +144,7 @@ public class CitaServices
             IdCentro = dto.IdCentro,
             Servicio = dto.Servicio,
             FechaCita = dto.Fecha,
-            EstadoCita = "Programada",
+            EstadoCita = EstadosCita.Programada,
             MotivoEstado = string.Empty,
             FechaRegistro = DateTime.UtcNow,
             FechaModificacion = DateTime.UtcNow,
@@ -220,11 +220,11 @@ public class CitaServices
             cita.MotivoEstado = "Cancelada por el paciente";
         }
 
-        if (cita.EstadoCita != "Programada")
-            throw new Exception("Solo se pueden caneclar citas ya programadas");
+        if (cita.EstadoCita != EstadosCita.Programada)
+            throw new Exception("Solo se pueden cancelar citas ya programadas");
         
         //cambiar datos de cita
-        cita.EstadoCita = "Cancelada";
+        cita.EstadoCita = EstadosCita.Cancelada;
         cita.FechaModificacion = DateTime.UtcNow;
         cita.ActualizadaPor = idUsuario;
         
@@ -247,8 +247,8 @@ public class CitaServices
         if (cita.IdCentro != idCentro)
             throw new Exception("Esta cita no pertenece a su centro");
 
-        if (cita.EstadoCita != "Programada")
-            throw new Exception("Sol puede repogramar citas ya programadas");
+        if (cita.EstadoCita != EstadosCita.Programada)
+            throw new Exception("Solo puede repogramar citas ya programadas");
 
         if (string.IsNullOrEmpty(dto.Justificacion))
             throw new Exception("Justificacion obligatoria");
@@ -294,7 +294,7 @@ public class CitaServices
         if (cita.IdCentro != idCentro)
             throw new Exception("Solo el personal del centro puede cambiar el estado de la cita");
 
-        if (cita.EstadoCita != "Programada")
+        if (cita.EstadoCita != EstadosCita.Programada)
             throw new Exception("Solo se pueden atender citas programadas");
 
         cita.EstadoCita = nuevoEstado;
