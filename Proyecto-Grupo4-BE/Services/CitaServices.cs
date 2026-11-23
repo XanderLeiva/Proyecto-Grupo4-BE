@@ -1,4 +1,7 @@
-﻿namespace Proyecto_Grupo4_BE.Services;
+﻿using Google.Cloud.Firestore;
+using Proyecto_Grupo4_BE.DTOs;
+
+namespace Proyecto_Grupo4_BE.Services;
 
 public class CitaServices
 {
